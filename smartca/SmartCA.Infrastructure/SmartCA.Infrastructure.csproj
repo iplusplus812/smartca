@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,9 +43,16 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DomainBase\EntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryFramework\Configuration\RepositoryMappingCollection.cs" />
+    <Compile Include="RepositoryFramework\Configuration\RepositoryMappingConstants.cs" />
+    <Compile Include="RepositoryFramework\Configuration\RepositoryMappingElement.cs" />
+    <Compile Include="RepositoryFramework\Configuration\RepositorySettings.cs" />
     <Compile Include="RepositoryFramework\IRepository.cs" />
+    <Compile Include="RepositoryFramework\RepositoryFactory.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="RepositoryFramework\App.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
