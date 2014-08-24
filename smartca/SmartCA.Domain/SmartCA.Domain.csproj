@@ -40,10 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Companies\Company.cs" />
+    <Compile Include="Employees\Employee.cs" />
     <Compile Include="Employees\IEmployeeRepository.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Projects\Allowance.cs" />
+    <Compile Include="Projects\Contract.cs" />
     <Compile Include="Projects\IProjectRepository.cs" />
+    <Compile Include="Projects\MarketSector.cs" />
+    <Compile Include="Projects\MarketSegment.cs" />
     <Compile Include="Projects\Project.cs" />
     <Compile Include="Projects\ProjectService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

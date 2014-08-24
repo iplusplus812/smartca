@@ -6,6 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using SmartCA.Domain.Companies;
+using SmartCA.Domain.Employees;
 using SmartCA.Infrastructure.DomainBase;
 
 namespace SmartCA.Domain.Projects

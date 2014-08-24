@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DataHelper.cs" />
     <Compile Include="DomainBase\EntityBase.cs" />
     <Compile Include="EntityFactoryFramework\Configuration\EntityMappingCollection.cs" />
