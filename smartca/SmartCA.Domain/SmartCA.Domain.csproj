@@ -39,8 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Companies\Company.cs" />
+    <Compile Include="Employees\IEmployeeRepository.cs" />
     <Compile Include="Projects\IProjectRepository.cs" />
+    <Compile Include="Projects\Project.cs" />
+    <Compile Include="Projects\ProjectService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

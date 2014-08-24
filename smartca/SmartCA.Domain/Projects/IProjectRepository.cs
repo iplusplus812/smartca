@@ -10,5 +10,7 @@ namespace SmartCA.Domain.Projects
     interface IProjectRepository: IRepository<Project>
     {
         IList<Project> FindBy(object sector, object segment, bool completed);
+        Project FindBy(string projectNumber);
+        IList<MarketSegment> FindAllMarketSegments();
     }
 }
